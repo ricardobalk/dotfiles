@@ -12,10 +12,10 @@ The most easy and recommend way of installing these dotfiles is as follows:
 
 - Use `lndir` from `xutils-dev` to automatically create symlinks from the same underlying directory structure.
 
-```sh
-sudo apt update
-sudo apt install xutils-dev
-lndir '/path/to/this/repository/' "$HOME"
-```
+  ```sh
+  sudo apt update
+  sudo apt install xutils-dev
+  lndir '/path/to/this/repository/' "$HOME"
+  ```
 
 [Ansible Playbooks]: https://github.com/ricardobalk/ansible "Ricardo's Collection of Ansible Roles, Tasks and Playbooks"
