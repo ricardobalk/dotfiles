@@ -1,0 +1,2 @@
+# Disable macOS Keyboard FN keys, as my Royal Kludge RK61 is not a Mac Keyboard, and we need to have F1 to F12 instead of having them as 'macOS media control keys'
+echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode
